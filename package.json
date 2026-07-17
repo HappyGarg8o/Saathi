@@ -1,0 +1,19 @@
+{
+  "name": "saathi-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "backend"
+  ],
+  "scripts": {
+    "user": "npm run --workspace=apps/user",
+    "partner": "npm run --workspace=apps/partner",
+    "backend": "npm run --workspace=backend",
+    "tsc": "tsc --workspaces --build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
