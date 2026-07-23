@@ -1,6 +1,7 @@
 # Saathi
 
 A two-sided marketplace app for booking social companions, built for the Indian market.
+Completely built by using AI (Claude, Antigravity and ChatGPT) 
 
 Saathi connects users looking for company — for events, outings, or everyday activities — with verified companions, through a mobile-first booking experience with real-time chat and secure payments.
 
